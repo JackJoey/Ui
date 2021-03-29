@@ -95,7 +95,7 @@ public static class Ui {
 
         foreach (UiBehaviour ui in findedUis) {
             if (!ui.isInited) {
-                ui.gameObject.SetActive(false);
+                ui.ForceHide();
                 ui.InitUi();
             }
         }

@@ -33,11 +33,11 @@ public abstract class UiBehaviour : MonoBehaviour
     }
 
     public virtual void ForceShow() {
-
+        this.gameObject.SetActive(true);
     }
 
     public virtual void ForceHide() {
-
+        this.gameObject.SetActive(false);
     }
 
     // todo think about it or 
